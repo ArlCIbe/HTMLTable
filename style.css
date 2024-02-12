@@ -1,0 +1,16 @@
+body { background-image: url(./assets/sun_moon_cycle.gif)}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+table {
+    border: solid black 20px;   
+    width: 100px;
+}
+
+td {
+    width: auto;
+
+}
