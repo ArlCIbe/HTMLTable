@@ -1,6 +1,7 @@
 /* Playground
 - move table down about midway through page
 - figure out if there's a way to get table's lines to look connected, instead of like individual boxes
+- play with different background colors for each category (this may only make sense with a static, one-colored background
 */
 
 body { background-image: url(./assets/sun_moon_cycle.gif)}
@@ -11,11 +12,11 @@ h1 {
 }
 
 table {
-    border: solid black 20px;   
+    border: solid black 18px;   
     width: 100px;
+    border-collapse: collapse;
 }
 
 th, td{
-    border: 2px;
-    border-style:dotted;
+    border: 2px solid;
 }
